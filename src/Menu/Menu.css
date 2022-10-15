@@ -1,0 +1,149 @@
+:root{
+    --btncolor: rgb(10, 0, 74)
+}
+
+.MenuContain{
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    padding-left: 10px;
+    justify-content: space-around;
+    height: 100vh;
+    background: linear-gradient(90deg,rgb(0, 0, 0),rgb(0, 0, 0));
+    z-index: 10;
+    position: fixed;
+    transition: 1s 
+}
+.MenuContain:hover{
+   width: 20%;
+   background: linear-gradient(90deg,rgba(0, 0, 0, 0.981) 80%,rgba(255, 255, 255, 0));
+    transition: 1s 
+
+}
+.personal{
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s
+}
+#avatar{
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+.btnList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%;
+}
+.Menubtn{
+    background: none;
+    border: 0;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.5s
+}
+.Menubtn:hover{
+    background: rgb(44, 41, 41);
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.362);
+}
+.rootName{
+    color: white;
+    display: none;
+}
+.MenuMore{
+    color: silver;
+    display: flex;
+    height: 20%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-weight: 700;
+    opacity: 0;
+    transition: 0.5s
+
+}
+.MenuMore>p{
+    cursor: pointer;
+}
+
+
+
+.MenuContain:hover .personal{
+    opacity: 1; 
+    align-items: center;
+    transition: 0.5s
+
+ }
+ 
+
+.MenuContain:hover .MenuMore{
+    opacity: 1; 
+    
+ }
+
+ .MenuContain:hover .btnList{
+     align-items: flex-start;
+     padding-left: 15px;
+
+  }
+ 
+.MenuContain:hover .Menubtn{
+    width: 150px; 
+    border-radius: 10px;  
+ }
+
+ .MenuContain:hover .rootName{
+    display: block;
+ }
+
+
+ @media(max-width: 1200px) {
+    .MenuContain{
+        width: 8%;
+    }
+    .Wrapper{
+        width: 100%;
+        left: 9%;
+    }
+ }
+
+ @media(max-width: 768px) {
+    .MenuContain{
+        display: none;
+    }
+    .btnGroup{
+        justify-content: center;
+    }
+    .MovDetContain{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 7px;
+        align-items: center;
+    }
+    .Wrapper{
+        width: 100%;
+        left: 0;
+        overflow-y: scroll;
+        padding-left: 0px;
+    }
+   
+ }
+ @media(max-width: 715px) {
+
+    .MovDetContain{
+        padding: 30px 0 30px 30px; 
+    }
+ }

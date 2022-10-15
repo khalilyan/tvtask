@@ -1,0 +1,30 @@
+.CarouselContain{
+    position: relative;
+    display: flex;
+}
+
+.slider{
+    display: flex;
+    gap: 30px;
+    width: max-content;
+    height: max-content;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+#coverItem{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+

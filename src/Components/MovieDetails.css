@@ -1,0 +1,60 @@
+.MovDetContain{
+    margin-top: 50px;
+
+}
+
+.btnGroup{
+   margin: 30px 0;
+   display: flex;
+   width: 100%;
+}
+#Play,#More{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: 0px;
+    font-size: large;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.5s
+
+}
+#Play:hover{
+    box-shadow: 0px 0px 12px white;
+}
+#More:hover{
+    box-shadow: 0px 0px 12px rgb(0, 8, 255);
+}
+#More{
+    background-color: rgb(0, 8, 255);
+}
+
+
+
+@media(max-width: 768px) {
+    #Title{
+        zoom: 90%;
+    }
+}
+
+
+@media(max-width: 666px) {
+    #Title{
+        zoom: 75%;
+    }
+}
+
+@media(max-width: 555px) {
+    #Title{
+        zoom: 60%;
+    }
+    #Play,#More{
+        zoom: 85%;
+    }
+}
+
+@media(max-width: 457px) {
+    #Title{
+        zoom: 45%;
+    }
+}

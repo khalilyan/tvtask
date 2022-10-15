@@ -1,0 +1,16 @@
+.Wrapper{
+   display: flex;
+   flex-direction: column;
+   background-image: url('../Components/react/assets/FeaturedCoverImage.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   z-index: 0;
+   position: fixed;
+   width: 95%;
+   left: 5%;
+   gap: 129px;
+   padding-left: 10px;
+   height: 100vh;
+   justify-content: space-between;
+}
