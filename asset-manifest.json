@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/tvtask/static/css/main.f04f4869.css",
+    "main.js": "/tvtask/static/js/main.a4db69b7.js",
+    "static/js/787.7d5c9d4d.chunk.js": "/tvtask/static/js/787.7d5c9d4d.chunk.js",
+    "static/media/FeaturedCoverImage.png": "/tvtask/static/media/FeaturedCoverImage.3b40049b902e17981f91.png",
+    "static/media/avatar.png": "/tvtask/static/media/avatar.e606e303d9be276d1ac1.png",
+    "static/media/https_specials-1.png": "/tvtask/static/media/https_specials-1.fc3a28f87943c3bee908.png",
+    "static/media/https_specials-8.png": "/tvtask/static/media/https_specials-8.0048dec35a4cf4cb8ff7.png",
+    "static/media/https_specials-5.png": "/tvtask/static/media/https_specials-5.12810bd3ded58324c48e.png",
+    "static/media/https_specials-6.png": "/tvtask/static/media/https_specials-6.38b6716b26c954e24ba1.png",
+    "static/media/https_specials-7.png": "/tvtask/static/media/https_specials-7.4815e4dcc34b202b203d.png",
+    "static/media/https_specials-2.png": "/tvtask/static/media/https_specials-2.d54d1960d0f6be421cce.png",
+    "static/media/https_specials-4.png": "/tvtask/static/media/https_specials-4.11f6f8ae6020f84cb2f5.png",
+    "static/media/https_specials-3.png": "/tvtask/static/media/https_specials-3.f25ccc61eb857efc7d95.png",
+    "static/media/FeaturedTitleImage.png": "/tvtask/static/media/FeaturedTitleImage.ee484156ac9cc73d829d.png",
+    "index.html": "/tvtask/index.html",
+    "main.f04f4869.css.map": "/tvtask/static/css/main.f04f4869.css.map",
+    "main.a4db69b7.js.map": "/tvtask/static/js/main.a4db69b7.js.map",
+    "787.7d5c9d4d.chunk.js.map": "/tvtask/static/js/787.7d5c9d4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f04f4869.css",
+    "static/js/main.a4db69b7.js"
+  ]
+}
